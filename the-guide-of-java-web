@@ -3,3 +3,14 @@
 
 ### Resources
 - MySQL Download Site: http://ftp.jaist.ac.jp/pub/mysql/Downloads/
+
+### Set Up
+- MySql:
+  - windows:
+  ```
+  1. Open CMD/Power Shell with an administor
+  2. Init MySQL: mysqld --initialize-insecure --console
+  3. Install MySQL Serivce: mysqld --install
+  4. Start MySQL Service: net start MySQL
+  5. Change the root initial password 
+  ```
